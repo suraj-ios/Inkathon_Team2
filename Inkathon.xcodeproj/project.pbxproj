@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0FC3402184312500B9FC4A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FC33F2184312500B9FC4A /* RegisterViewController.swift */; };
+		1F1308F921844F15008F6B83 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1308F821844F15008F6B83 /* HomeViewController.swift */; };
+		1F1308FD21844F63008F6B83 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1308FB21844F63008F6B83 /* ImageCell.swift */; };
+		1F1308FE21844F63008F6B83 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1308FC21844F63008F6B83 /* ImageCell.xib */; };
+		1F13090121846DCE008F6B83 /* DeliveryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F13090021846DCE008F6B83 /* DeliveryDetailsVC.swift */; };
+		1F13090421847657008F6B83 /* OrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F13090321847657008F6B83 /* OrderListVC.swift */; };
+		1F130908218476CE008F6B83 /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F130906218476CE008F6B83 /* OrderCell.swift */; };
+		1F130909218476CE008F6B83 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F130907218476CE008F6B83 /* OrderCell.xib */; };
+		44D628A72184164F0015798A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628A62184164F0015798A /* AppDelegate.swift */; };
+		44D628AC2184164F0015798A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D628AA2184164F0015798A /* Main.storyboard */; };
+		44D628AF2184164F0015798A /* Inkathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44D628AD2184164F0015798A /* Inkathon.xcdatamodeld */; };
+		44D628B1218416500015798A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D628B0218416500015798A /* Assets.xcassets */; };
+		44D628B4218416500015798A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D628B2218416500015798A /* LaunchScreen.storyboard */; };
+		44D628BF21842F560015798A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628BE21842F560015798A /* LoginViewController.swift */; };
+		44D628C1218431290015798A /* ListProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628C0218431290015798A /* ListProduct.swift */; };
+		44D628C4218433A90015798A /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628C3218433A90015798A /* WebServices.swift */; };
+		44D628C6218434010015798A /* WebConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628C5218434010015798A /* WebConstants.swift */; };
+		44D628C821843CE80015798A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628C721843CE80015798A /* LoginModel.swift */; };
+		44D628CA21843E010015798A /* ResponseConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628C921843E010015798A /* ResponseConstants.swift */; };
+		44D628CE218440A00015798A /* RegistrationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628CD218440A00015798A /* RegistrationModel.swift */; };
+		44D628D0218441F50015798A /* JSONArrayFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628CF218441F50015798A /* JSONArrayFormatter.swift */; };
+		44D628D221846AE60015798A /* ListProductData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628D121846AE50015798A /* ListProductData.swift */; };
+		44D628D42184717E0015798A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628D32184717E0015798A /* Reachability.swift */; };
+		44D628D921848A1C0015798A /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D628D821848A1C0015798A /* OrderCell.xib */; };
+		44D628DB218495780015798A /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D628DA218495780015798A /* TabbarController.swift */; };
+		65E6B8D02B96F1ED8285934B /* Pods_Inkathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A647B24CAF9BF1190AF23BB /* Pods_Inkathon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015BDE9EC447E56B24EDB88F /* Pods-Inkathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inkathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Inkathon/Pods-Inkathon.release.xcconfig"; sourceTree = "<group>"; };
+		1F0FC33F2184312500B9FC4A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		1F1308F821844F15008F6B83 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1F1308FB21844F63008F6B83 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		1F1308FC21844F63008F6B83 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		1F13090021846DCE008F6B83 /* DeliveryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailsVC.swift; sourceTree = "<group>"; };
+		1F13090321847657008F6B83 /* OrderListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVC.swift; sourceTree = "<group>"; };
+		1F130906218476CE008F6B83 /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		1F130907218476CE008F6B83 /* OrderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		44D628A32184164F0015798A /* Inkathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inkathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44D628A62184164F0015798A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44D628AB2184164F0015798A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44D628AE2184164F0015798A /* Inkathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inkathon.xcdatamodel; sourceTree = "<group>"; };
+		44D628B0218416500015798A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44D628B3218416500015798A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44D628B5218416510015798A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44D628BE21842F560015798A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44D628C0218431290015798A /* ListProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProduct.swift; sourceTree = "<group>"; };
+		44D628C3218433A90015798A /* WebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		44D628C5218434010015798A /* WebConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConstants.swift; sourceTree = "<group>"; };
+		44D628C721843CE80015798A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		44D628C921843E010015798A /* ResponseConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseConstants.swift; sourceTree = "<group>"; };
+		44D628CD218440A00015798A /* RegistrationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationModel.swift; sourceTree = "<group>"; };
+		44D628CF218441F50015798A /* JSONArrayFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONArrayFormatter.swift; sourceTree = "<group>"; };
+		44D628D121846AE50015798A /* ListProductData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListProductData.swift; sourceTree = "<group>"; };
+		44D628D32184717E0015798A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		44D628D821848A1C0015798A /* OrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		44D628DA218495780015798A /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		9A647B24CAF9BF1190AF23BB /* Pods_Inkathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inkathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F2586C1A76279228358A2A /* Pods-Inkathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inkathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Inkathon/Pods-Inkathon.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44D628A02184164F0015798A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E6B8D02B96F1ED8285934B /* Pods_Inkathon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1308F721844EEE008F6B83 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				1F1308FA21844F3D008F6B83 /* ImgCell */,
+				1F1308F821844F15008F6B83 /* HomeViewController.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		1F1308FA21844F3D008F6B83 /* ImgCell */ = {
+			isa = PBXGroup;
+			children = (
+				1F1308FB21844F63008F6B83 /* ImageCell.swift */,
+			);
+			path = ImgCell;
+			sourceTree = "<group>";
+		};
+		1F1308FF21846D8D008F6B83 /* DeliveryDetailsVC */ = {
+			isa = PBXGroup;
+			children = (
+				1F13090021846DCE008F6B83 /* DeliveryDetailsVC.swift */,
+			);
+			path = DeliveryDetailsVC;
+			sourceTree = "<group>";
+		};
+		1F13090221847638008F6B83 /* OrderListVC */ = {
+			isa = PBXGroup;
+			children = (
+				1F1309052184768C008F6B83 /* OrderCell */,
+				1F13090321847657008F6B83 /* OrderListVC.swift */,
+			);
+			path = OrderListVC;
+			sourceTree = "<group>";
+		};
+		1F1309052184768C008F6B83 /* OrderCell */ = {
+			isa = PBXGroup;
+			children = (
+				1F130906218476CE008F6B83 /* OrderCell.swift */,
+				44D628D821848A1C0015798A /* OrderCell.xib */,
+			);
+			path = OrderCell;
+			sourceTree = "<group>";
+		};
+		28BF851562315626425EC36C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0F2586C1A76279228358A2A /* Pods-Inkathon.debug.xcconfig */,
+				015BDE9EC447E56B24EDB88F /* Pods-Inkathon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D6289A2184164F0015798A = {
+			isa = PBXGroup;
+			children = (
+				44D628A52184164F0015798A /* Inkathon */,
+				44D628A42184164F0015798A /* Products */,
+				28BF851562315626425EC36C /* Pods */,
+				DAB8E7BE8138BD6DB2901FF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44D628A42184164F0015798A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44D628A32184164F0015798A /* Inkathon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44D628A52184164F0015798A /* Inkathon */ = {
+			isa = PBXGroup;
+			children = (
+				44D628A62184164F0015798A /* AppDelegate.swift */,
+				44D628BD21842C4C0015798A /* Controller */,
+				44D628BC21842C440015798A /* View */,
+				44D628BB21842C3C0015798A /* Model */,
+				44D628C2218433930015798A /* WebServices */,
+				44D628B0218416500015798A /* Assets.xcassets */,
+				44D628B5218416510015798A /* Info.plist */,
+				44D628AD2184164F0015798A /* Inkathon.xcdatamodeld */,
+			);
+			path = Inkathon;
+			sourceTree = "<group>";
+		};
+		44D628BB21842C3C0015798A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44D628C0218431290015798A /* ListProduct.swift */,
+				44D628D121846AE50015798A /* ListProductData.swift */,
+				44D628C721843CE80015798A /* LoginModel.swift */,
+				44D628CD218440A00015798A /* RegistrationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44D628BC21842C440015798A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44D628AA2184164F0015798A /* Main.storyboard */,
+				44D628B2218416500015798A /* LaunchScreen.storyboard */,
+				1F130907218476CE008F6B83 /* OrderCell.xib */,
+				1F1308FC21844F63008F6B83 /* ImageCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44D628BD21842C4C0015798A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44D628D7218483AD0015798A /* Sign up */,
+				44D628D62184839C0015798A /* Log in */,
+				1F13090221847638008F6B83 /* OrderListVC */,
+				1F1308FF21846D8D008F6B83 /* DeliveryDetailsVC */,
+				1F1308F721844EEE008F6B83 /* HomeVC */,
+				44D628D32184717E0015798A /* Reachability.swift */,
+				44D628DA218495780015798A /* TabbarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		44D628C2218433930015798A /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				44D628C3218433A90015798A /* WebServices.swift */,
+				44D628C5218434010015798A /* WebConstants.swift */,
+				44D628C921843E010015798A /* ResponseConstants.swift */,
+				44D628CF218441F50015798A /* JSONArrayFormatter.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		44D628D62184839C0015798A /* Log in */ = {
+			isa = PBXGroup;
+			children = (
+				44D628BE21842F560015798A /* LoginViewController.swift */,
+			);
+			path = "Log in";
+			sourceTree = "<group>";
+		};
+		44D628D7218483AD0015798A /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				1F0FC33F2184312500B9FC4A /* RegisterViewController.swift */,
+			);
+			path = "Sign up";
+			sourceTree = "<group>";
+		};
+		DAB8E7BE8138BD6DB2901FF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A647B24CAF9BF1190AF23BB /* Pods_Inkathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44D628A22184164F0015798A /* Inkathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44D628B8218416510015798A /* Build configuration list for PBXNativeTarget "Inkathon" */;
+			buildPhases = (
+				FBB584E81DFE0CFF52075ADD /* [CP] Check Pods Manifest.lock */,
+				44D6289F2184164F0015798A /* Sources */,
+				44D628A02184164F0015798A /* Frameworks */,
+				44D628A12184164F0015798A /* Resources */,
+				4669DEFCDD9F19845A99AA33 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inkathon;
+			productName = Inkathon;
+			productReference = 44D628A32184164F0015798A /* Inkathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44D6289B2184164F0015798A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Suraj;
+				TargetAttributes = {
+					44D628A22184164F0015798A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 44D6289E2184164F0015798A /* Build configuration list for PBXProject "Inkathon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44D6289A2184164F0015798A;
+			productRefGroup = 44D628A42184164F0015798A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44D628A22184164F0015798A /* Inkathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44D628A12184164F0015798A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F130909218476CE008F6B83 /* OrderCell.xib in Resources */,
+				44D628B4218416500015798A /* LaunchScreen.storyboard in Resources */,
+				44D628D921848A1C0015798A /* OrderCell.xib in Resources */,
+				1F1308FE21844F63008F6B83 /* ImageCell.xib in Resources */,
+				44D628B1218416500015798A /* Assets.xcassets in Resources */,
+				44D628AC2184164F0015798A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4669DEFCDD9F19845A99AA33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Inkathon/Pods-Inkathon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Inkathon/Pods-Inkathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB584E81DFE0CFF52075ADD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inkathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44D6289F2184164F0015798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D628BF21842F560015798A /* LoginViewController.swift in Sources */,
+				44D628C1218431290015798A /* ListProduct.swift in Sources */,
+				44D628C4218433A90015798A /* WebServices.swift in Sources */,
+				44D628D0218441F50015798A /* JSONArrayFormatter.swift in Sources */,
+				44D628A72184164F0015798A /* AppDelegate.swift in Sources */,
+				1F13090121846DCE008F6B83 /* DeliveryDetailsVC.swift in Sources */,
+				1F130908218476CE008F6B83 /* OrderCell.swift in Sources */,
+				44D628CE218440A00015798A /* RegistrationModel.swift in Sources */,
+				44D628AF2184164F0015798A /* Inkathon.xcdatamodeld in Sources */,
+				44D628C821843CE80015798A /* LoginModel.swift in Sources */,
+				44D628D42184717E0015798A /* Reachability.swift in Sources */,
+				1F0FC3402184312500B9FC4A /* RegisterViewController.swift in Sources */,
+				44D628C6218434010015798A /* WebConstants.swift in Sources */,
+				1F13090421847657008F6B83 /* OrderListVC.swift in Sources */,
+				44D628DB218495780015798A /* TabbarController.swift in Sources */,
+				44D628CA21843E010015798A /* ResponseConstants.swift in Sources */,
+				1F1308F921844F15008F6B83 /* HomeViewController.swift in Sources */,
+				1F1308FD21844F63008F6B83 /* ImageCell.swift in Sources */,
+				44D628D221846AE60015798A /* ListProductData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44D628AA2184164F0015798A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D628AB2184164F0015798A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44D628B2218416500015798A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D628B3218416500015798A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44D628B6218416510015798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44D628B7218416510015798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44D628B9218416510015798A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F2586C1A76279228358A2A /* Pods-Inkathon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7CWZFL87BU;
+				INFOPLIST_FILE = Inkathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.pushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Fugenx_Development;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44D628BA218416510015798A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015BDE9EC447E56B24EDB88F /* Pods-Inkathon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7CWZFL87BU;
+				INFOPLIST_FILE = Inkathon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.pushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Fugenx_Development;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44D6289E2184164F0015798A /* Build configuration list for PBXProject "Inkathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D628B6218416510015798A /* Debug */,
+				44D628B7218416510015798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44D628B8218416510015798A /* Build configuration list for PBXNativeTarget "Inkathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D628B9218416510015798A /* Debug */,
+				44D628BA218416510015798A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44D628AD2184164F0015798A /* Inkathon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44D628AE2184164F0015798A /* Inkathon.xcdatamodel */,
+			);
+			currentVersion = 44D628AE2184164F0015798A /* Inkathon.xcdatamodel */;
+			path = Inkathon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44D6289B2184164F0015798A /* Project object */;
+}
